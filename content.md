@@ -233,7 +233,7 @@ pick a common server framework
 - golang
 - django (i guess)
 
-I would recommend these books: (rails)[https://railstutorial.org] (nodejs)[https://www.manning.com/books/node-js-in-action-second-edition]
+I would recommend these books: [rails](https://railstutorial.org) [nodejs](https://www.manning.com/books/node-js-in-action-second-edition)
 
 
 
