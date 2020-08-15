@@ -227,16 +227,22 @@ practical software engineering
 <img src="https://miro.medium.com/max/1080/0*Qf1s2lG86MjX-Zcv.jpg">
 
 
-pick a common framework or language
+pick a common server framework
 - ruby on rails
 - express.js
 - golang
 - django (i guess)
 
-and do a tutorial on it
+I would recommend these books: (rails)[https://railstutorial.org] (nodejs)[https://www.manning.com/books/node-js-in-action-second-edition]
 
 
-build some apps, and learn to deploy!
+
+pick a common frontend framework:
+- react
+- vuejs
+
+
+build, build and build. until you get used to thinking about designing apps and features.
 
 
 
