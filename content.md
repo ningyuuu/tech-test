@@ -228,13 +228,15 @@ practical software engineering
 
 
 pick a common server framework
-- ruby on rails
-- express.js
+- ruby on rails (too much magic?)
+- spring boot (good verbosity to learn basics)
+- express.js (event loop)
 - golang
 - django (i guess)
 
 I would recommend these books: [rails](https://railstutorial.org) [nodejs](https://www.manning.com/books/node-js-in-action-second-edition)
 
+Frameworks dictate where you would go, so choose a popular one?
 
 
 pick a common frontend framework:
