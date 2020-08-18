@@ -259,4 +259,4 @@ final tips
 
 - you're not expected to know everything. feel free to ask questions, and be honest about making mistakes.
 
-- interviews are a great way to know better about the company
+- interviews go both ways - it is also for you to assess about the company
