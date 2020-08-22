@@ -140,6 +140,10 @@ function dfs_by_colour {
 ```
 
 
+<div style="height: 45vh"><img src="coding_interview.png"></div>
+
+<small>Cracking the Coding Interview by Gayle Laakmann McDowell</small>
+
 
 
 <font color=red>Given a list of movies watched by users of your app, and a movie a new user just watched, recommend another movie for him to watch.</font>  
@@ -198,20 +202,29 @@ data structures and algorithms
 
 you don't need to implement them
 
-but you'll need to know how to use them, and what's the big O for common operations
+but you should know:
+- what they are
+- how they work
+- how to use them
+- time complexities for common operations
+
+
+common operations:
 - insert
 - remove
 - find
+- next/previous
 
 
-basics: hashmap, array, _*recursion*_, __oop__
+algos to know:
 
-linear: sorts, linkedlists, deque
+- recursion and dynamic programming
+- basics: hashmap, array
+- linear: sorts, linkedlists, deque
+- nonlinear: graphs, trees, heaps
 
-nonlinear: graphs, trees, heaps
 
-
-<img src="https://memegenerator.net/img/instances/65850458.jpg">
+<img src="binary_tree_meme.jpg">
 
 
 ways to study:
@@ -224,37 +237,98 @@ ways to study:
 practical software engineering
 
 
+OOP
+- classes and instances
+- inheritance
+- abstract classes
+- generics
+- private and public
+- constructors, methods and attributes
+- _*this / self*_
+
+
+you'll want to know how OOP is implemented in your language of choice, and what are its drawbacks! (especially interpreted languages)
+
+
+fastest way to learn this: take a MOOC, and then do some exercises / build some apps
+
+
+
 <img src="https://miro.medium.com/max/1080/0*Qf1s2lG86MjX-Zcv.jpg">
 
 
+fastest way to learn this:
 pick a common server framework
 - ruby on rails
-- express.js
-- golang
-- django (i guess)
+- node/express.js
+- spring / laravel (I don't know these)
 
 I would recommend these books: [rails](https://railstutorial.org) [nodejs](https://www.manning.com/books/node-js-in-action-second-edition)
 
 
 
+frontend
+
+
+you'll have to know javascript to do this!
+
 pick a common frontend framework:
 - react
 - vuejs
+- angular (?)
 
 
-build, build and build. until you get used to thinking about designing apps and features.
+quickly do a tutorial and understand:
+- lifecycle APIs
+- component props/states & other APIs
+- stores, routes, mixins, etc
+
+then, build a few apps for fun, to get used to thinking about designing apps and features.
+
+
+<img src="freecodecamp.png">
+<small><a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/">https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/</a></small>
 
 
 
-final tips
+5. resources
 
 
-- no one has asked me about docker, ever
+https://visualgo.net
 
-- don't just learn the tool, learn the underlying concept
+website built by NUS SoC to teach students algorithms. we mug this before the exam.
+
+
+https://www.leetcode.com  
+
+great website to do some algorithm practice questions and learn algorithmic thinking
+
+
+<img src="cracking_book.jpg">
+
+world famous book on algos. has a lot of gems! every time i prep for interviews again, i go back and study this.
+
+
+https://www.freecodecamp.org/learn
+
+bunch of free stuff here. i recommend this as i've started by dev journey with this few years back.
+
+
+
+6. final tips
+
+
+- no one has asked me about docker, ever. docker is not a big deal imo.
+
+- don't just learn the tool, learn the underlying concept (e.g. event loops, declarative programming)
 
 - engineering is always about making tradeoffs
 
 - you're not expected to know everything. feel free to ask questions, and be honest about making mistakes.
 
 - interviews are a great way to know better about the company
+
+
+glhf
+
+<img src="https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/16:9/w_2560,c_limit/chocolate-chip-cookie.jpg">
