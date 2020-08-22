@@ -259,11 +259,21 @@ fastest way to learn this: take a MOOC, and then do some exercises / build some 
 
 fastest way to learn this:
 pick a common server framework
-- ruby on rails
+
+- ruby on rails (warning: magic)
 - node/express.js
-- spring / laravel (I don't know these)
+- spring (good verbosity to learn basics) 
+- laravel (php if you're coming from wordpress)
+
 
 I would recommend these books: [rails](https://railstutorial.org) [nodejs](https://www.manning.com/books/node-js-in-action-second-edition)
+
+
+your framework may dictate where you would go. choose something you enjoy coding in. (i'm not so sure about this myself)
+
+- banks: java (spring)
+- govtech: a lot of rails evidently
+- nodejs: microservices
 
 
 
@@ -276,6 +286,8 @@ pick a common frontend framework:
 - react
 - vuejs
 - angular (?)
+
+they're so similar, it really doesn't matter which you choose
 
 
 quickly do a tutorial and understand:
@@ -326,7 +338,7 @@ bunch of free stuff here. i recommend this as i've started by dev journey with t
 
 - you're not expected to know everything. feel free to ask questions, and be honest about making mistakes.
 
-- interviews are a great way to know better about the company
+- interviews go both ways - it is also for you to assess about the company
 
 
 glhf
