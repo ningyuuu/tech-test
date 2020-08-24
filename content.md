@@ -344,3 +344,10 @@ bunch of free stuff here. i recommend this as i've started by dev journey with t
 glhf
 
 <img src="https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/16:9/w_2560,c_limit/chocolate-chip-cookie.jpg">
+
+
+
+feedback
+- give examples of what is a good interview vs what was a bad experience
+- resources are important (compile more)
+- frontend - not that important
