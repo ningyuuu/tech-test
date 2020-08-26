@@ -123,19 +123,29 @@ https://stackoverflow.blog/2019/12/16/this-this-whiteboard-interviews/
 
 
 my personal take
-- don't see it as an excuse to not be good at technical tests
+- not an excuse to not be good at technical tests
 - not the sharpest tool, but still far more effective than looking at just CVs, degrees
-- just a _*general name*_ for many different types of tests. some are more effective than others
+- just a _*general name*_ for many different types of tests
+- some whiteboard styles are very effective
+
+
+now for some examples!
 
 
 
+Our best friend Patrick Shyu (TechLead)  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IWvbPIYQPFM?start=318" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <img src="flood.png" width="70%">
 
-given a grid of size m by n  
-find the maximum number of connected colour boxes
+Given a 2d grid, find the maximum number of connected colour boxes. In the example, the answer would be 5 (bottom right, 5 connected boxes).
+
+
+tldr solution:
+1. nested for loop to go through every cell
+2. run depth first search to find area on all untouched cells, marking them when touched
+3. get the maximum count of a single DFS run
 
 
 ```go
@@ -169,13 +179,13 @@ function dfs_by_colour {
 
 
 
-<font color=red>Given a list of movies watched by users of your app, and a movie a new user just watched, recommend another movie for him to watch.</font>  
+Given a list of movies watched by users of your app, and a movie a new user just watched, recommend another movie for him to watch.  
 
 
 collaborative filtering?
 
 
-start simple!
+nooo!!! start simple!
 
 find all users who also watched this movie  
 and just grab the most watched movie of all these users
@@ -183,10 +193,13 @@ and just grab the most watched movie of all these users
 this is a semi-simple sql query
 
 
-<font color=red>Design an app to provide an API service. The app should be able to store users, movies, watches and make recommendations.</font>
+1. select all users which watched the movie in query
+2. for each user, select the movies he/she watched
+3. sum all these watches, and sort by count
+4. return the first record
 
 
-generally, this could be an MVC app.
+Design an app to provide an API service. The app should be able to store users, movies, watches and make recommendations.
 
 
 2 models: `user`, `movie`, linked by a foreign key.
@@ -206,7 +219,7 @@ basic routes, plus a watch API.
 remember to write unit tests!
 
 
-<font color=red>How would you improve the performance of the recommendation API?</font>
+How would you improve the performance of the recommendation API?
 
 
 cache results when queried, set to expire in 24 hours.
@@ -219,6 +232,10 @@ any other ideas?
 ## preparation
 
 
+- data structures and algorithms
+- object-oriented programming
+- backend MVC
+- frontend
 
 data structures and algorithms
 
@@ -257,10 +274,9 @@ ways to study:
 
 
 
-practical software engineering
+object-oriented programming
 
 
-OOP
 - classes and instances
 - inheritance
 - abstract classes
@@ -310,7 +326,7 @@ pick a common frontend framework:
 - vuejs
 - angular (?)
 
-they're so similar, it really doesn't matter which you choose
+they're very similar, you don't have to be very deliberate about it
 
 
 quickly do a tutorial and understand:
@@ -326,12 +342,12 @@ then, build a few apps for fun, to get used to thinking about designing apps and
 
 
 
-4. resources and tips
+resources and tips
 
 
 https://visualgo.net
 
-website built by NUS SoC to teach students algorithms. we mug this before the exam.
+website built by NUS SoC to teach students algorithms. we mug this before every algo exam.
 
 
 https://www.leetcode.com  
@@ -346,29 +362,36 @@ world famous book on algos. has a lot of gems! every time i prep for interviews 
 
 https://www.freecodecamp.org/learn
 
-bunch of free stuff here. i recommend this as i've started by dev journey with this few years back.
+the datacamp of software engineering, but FOC.  
+i started my dev journey with this.
 
+
+
+other thoughts
+
+i can't fit into the structure
 
 
 - no one has asked me about docker, ever. docker is not a big deal imo.
 
 - don't just learn the tool, learn the underlying concept (e.g. event loops, declarative programming)
 
-- engineering is always about making tradeoffs
+- engineering is always about making _*tradeoffs*_
 
 - you're not expected to know everything. feel free to ask questions, and be honest about making mistakes.
 
-- interviews go both ways - it is also for you to assess about the company
+
+interviews go both ways - it is also for you to assess about the company
+
+- a chat with the hiring manager, without any technical interviews
+- uni-direction Q&A without any real discussion/feedback
+- purely algorithm questions
+- HR driven recruitment
+- low level feedback from interviewers
 
 
 
-## glhf
+### glhf
+let's build some good shit together :)
 
-<img src="https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/16:9/w_2560,c_limit/chocolate-chip-cookie.jpg">
-
-
-
-feedback
-- give examples of what is a good interview vs what was a bad experience
-- resources are important (compile more)
-- frontend - not that important
+<img src="https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/16:9/w_2560,c_limit/chocolate-chip-cookie.jpg" width="70%">
