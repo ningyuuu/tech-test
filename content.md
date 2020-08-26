@@ -103,25 +103,20 @@ it's about:
 some of the formats i've come across
 - direct algo questions
 - applied algo questions
-- oop-ify something
-- build a small app/api/feature
+- converting something into OOP
+- build a small app/API/feature
 
-a common flow: algo -> wrap in oop -> wrap in API
-
-
-mediums:
-- take-home
-- online 
-- f2f
---- 
-platforms: 
-- IDE
-- whiteboard
-- google docs
+a common flow: develop an algo &#8594; wrap in OOP/API
 
 
+| mediums || platforms |  
+| ------------- || ------------- | 
+| take-home || google docs |
+| online || whiteboard |
+| in-person || IDE |
 
-\> whiteboarding is a terrible hiring practice
+
+> whiteboarding is a terrible hiring practice
 
 https://stackoverflow.blog/2019/12/16/this-this-whiteboard-interviews/  
 (second half is satire)
