@@ -5,26 +5,36 @@ ning yu
 
 ## 1
 ## motivation
+time estimated: 20 minutes
 
 
 
-software is important   
+software engineering is 
+- "not important"
+- "just outsource"
+- "AI is the future, software is the past"
+
+
+the data science "hierarchy of needs"  
 <img src="https://hackernoon.com/hn-images/1*7IMev5xslc9FLxr9hHhpFw.png" width="70%">  
 <small>https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc00</small>
 
 
-software lies below all that  
-<img src="ds_hierarchy_software.jpg" width="70%">
-
-
-and beside that too  
+mastery of software is necessary for good data science  
+it's not a foregone conclusion  
 <img src="ds_hierarchy_software2.jpg" width="70%">
 
 
 
-software isn't homogenous  
+- "software developer no future one"
+- "no code app development is the next big thing"
+- "your company can just outsource to india/china"
+- "software is so easy now, not worth your time"
 
-but it's wrapped in elitism
+
+the software industry isn't homogenous  
+but wrapped in elitism  
+you can't "farm" your way up into the trajectory
 
 
 <img src="twotiers.png" width="70%">
@@ -34,21 +44,54 @@ a lot of opinions here to consider - <a href="https://www.reddit.com/r/singapore
 </small>
 
 
+my subjective, unscientific take
 
-### why does this happen?
-because software engineering is hard  
-you actually can't smoke this shit  
-
-
-it's not just about X years of experience  
-or how many degrees  
-or what your job title is  
-
-or what's your previous company  
-(ok that actually does matter, just not 100%)  
+| higher tier   || lower tier    | 
+| ------------- || ------------- | 
+| software is core || software is a means to sales | 
+| problems are unique, requires skill || simple problems, just need anyone to implement | 
+| quality is highly valued || doesn't really matter, just get the job done | 
 
 
-you actually have to be good
+| higher tier || lower tier |  
+| ------------- || ------------- | 
+| stringent technical assessment process || hiring is done by managers/HR |
+| individual empowerment || corporatised |
+| (tries to be truly) agile || claims to be agile |
+
+
+| higher tier || lower tier |  
+| ------------- || ------------- | 
+| pays well || doesn't pay well |
+| technical progression || move up to management asap |
+| you wanna be here || not here |
+
+
+
+why can't you "farm" into the good places
+
+and if you can't progress into good software roles  
+how do you get in?
+
+
+good software companies emphasize on technical abilities
+
+they develop assessments that assess your current and potential skill
+
+
+it's not about:
+- X years of experience  
+- how many degrees  
+- what your job title is  
+
+sometimes it isn't even about your previous company  
+(though that actually does matter)  
+
+
+it's about:
+- what you have build (and can show)
+- how good you are at coding
+- how well you work with the team
 
 
 
@@ -88,21 +131,6 @@ my personal take
 - don't see it as an excuse to not be good at technical tests
 - not the sharpest tool, but still far more effective than looking at just CVs, degrees
 - just a _*general name*_ for many different types of tests. some are more effective than others
-
-
-what i did
-- build my portfolio
-- develop my skill as a software engineer
-- know my MVCs and OOPs
-- learn my algos!!!
-
-first 2 points are what recruiters say  
-last 2 points are focus of today
-
-
-
-## 3
-## examples
 
 
 
@@ -192,7 +220,7 @@ any other ideas?
 
 
 
-## 4
+## 3
 ## preparation
 
 
@@ -303,7 +331,7 @@ then, build a few apps for fun, to get used to thinking about designing apps and
 
 
 
-5. resources
+4. resources and tips
 
 
 https://visualgo.net
@@ -327,9 +355,6 @@ bunch of free stuff here. i recommend this as i've started by dev journey with t
 
 
 
-6. final tips
-
-
 - no one has asked me about docker, ever. docker is not a big deal imo.
 
 - don't just learn the tool, learn the underlying concept (e.g. event loops, declarative programming)
@@ -341,7 +366,8 @@ bunch of free stuff here. i recommend this as i've started by dev journey with t
 - interviews go both ways - it is also for you to assess about the company
 
 
-glhf
+
+## glhf
 
 <img src="https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/16:9/w_2560,c_limit/chocolate-chip-cookie.jpg">
 
