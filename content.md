@@ -3,29 +3,30 @@ ning yu
 
 
 
-## 1
-## motivation
-time estimated: 20 minutes
+# 1
+# motivation
+addressing some commonly heard things
 
 
 
-software engineering is 
+## software engineering is 
 - "not important"
 - "just outsource"
 - "AI is the future, software is the past"
 
 
-the data science "hierarchy of needs"  
+## the data science "hierarchy of needs"  
 <img src="https://hackernoon.com/hn-images/1*7IMev5xslc9FLxr9hHhpFw.png" width="70%">  
 <small>https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc00</small>
 
 
 mastery of software is necessary for good data science  
-it's not a foregone conclusion  
+### it's not a foregone conclusion  
 <img src="ds_hierarchy_software2.jpg" width="70%">
 
 
 
+## software engineers are? 
 - "software developer no future one"
 - "no code app development is the next big thing"
 - "your company can just outsource to india/china"
@@ -33,70 +34,80 @@ it's not a foregone conclusion
 
 
 the software industry isn't homogenous  
-but wrapped in elitism  
-you can't "farm" your way up into the trajectory
+### but wrapped in elitism  
+you can't just climb your way up like a typical career
 
 
 <img src="twotiers.png" width="70%">
-<small><a href="http://elijames.org/the-two-tiers-of-singapores-tech-companies">http://elijames.org/the-two-tiers-of-singapores-tech-companies</a>
+
+<a href="http://elijames.org/the-two-tiers-of-singapores-tech-companies">http://elijames.org/the-two-tiers-of-singapores-tech-companies</a>
 
 a lot of opinions here to consider - <a href="https://www.reddit.com/r/singapore/comments/i9d46m/two_tiers_of_tech_company_in_singapore/">recent reddit discussion</a>
-</small>
 
 
-my subjective, unscientific take
+
+## my subjective, unscientific take
 
 | higher tier   || lower tier    | 
 | ------------- || ------------- | 
 | software is core || software is a means to sales | 
-| problems are unique, requires skill || simple problems, just need anyone to implement | 
-| quality is highly valued || doesn't really matter, just get the job done | 
+| team owns the product || let's just get it done and over with |
+| problems are unique, requires skill || just need some tom dick harry to implement | 
+| quality is highly valued || doesn't really matter, can run can liao | 
 
 
 | higher tier || lower tier |  
 | ------------- || ------------- | 
 | stringent technical assessment process || hiring is done by managers/HR |
 | individual empowerment || corporatised |
-| (tries to be truly) agile || claims to be agile |
+| tries to move towards being agile || claims to be agile |
 
 
 | higher tier || lower tier |  
 | ------------- || ------------- | 
-| pays well || doesn't pay well |
-| technical progression || move up to management asap |
+| pays pretty damn well || doesn't pay well* |
+| values technical progression || encourages jump to management asap |
 | you wanna be here || not here |
+
+<br />
+
+<small>\* not necessarily. i've heard sometimes companies pay well because the job sucks.</small>
 
 
 
 why can't you "farm" into the good places
 
-and if you can't progress into good software roles  
+and if you can't climb your way into good software roles  
+
 how do you get in?
 
 
-good software companies emphasize on technical abilities
+good software companies emphasize on __technical abilities__
 
-they develop assessments that assess your current and potential skill
+### they develop assessments that assess your skill and potential
 
 
 it's not about:
 - X years of experience  
-- how many degrees  
-- what your job title is  
+- what / how many degrees  
+- what your job title is / was  
 
 sometimes it isn't even about your previous company  
 (though that actually does matter)  
 
 
-it's about:
-- what you have build (and can show)
+good software companies value  
+### what you value in a software engineer
+- what have you build (and can show)
+- what problems can you solve
 - how good you are at coding
 - how well you work with the team
 
 
 
-## 2
-## technical tests
+# 2
+# technical tests
+some of my past experiences condensed
 
 
 
@@ -109,6 +120,7 @@ some of the formats i've come across
 a common flow: develop an algo &#8594; wrap in OOP/API
 
 
+## ways of execution
 | mediums || platforms |  
 | ------------- || ------------- | 
 | take-home || google docs |
@@ -122,29 +134,29 @@ https://stackoverflow.blog/2019/12/16/this-this-whiteboard-interviews/
 (second half is satire)
 
 
-my personal take
+## my personal take
 - not an excuse to not be good at technical tests
 - not the sharpest tool, but still far more effective than looking at just CVs, degrees
 - just a _*general name*_ for many different types of tests
 - some whiteboard styles are very effective
 
 
-now for some examples!
+## now for some examples!
 
 
 
-Our best friend Patrick Shyu (TechLead)  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IWvbPIYQPFM?start=318" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Our best friend Patrick Shyu (TechLead)  
+<iframe width="840" height="473" src="https://www.youtube.com/embed/IWvbPIYQPFM?start=318" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-<img src="flood.png" width="70%">
+<img src="flood.png" width="90%">
 
 Given a 2d grid, find the maximum number of connected colour boxes. In the example, the answer would be 5 (bottom right, 5 connected boxes).
 
 
-tldr solution:
+## tldr solution:
 1. nested for loop to go through every cell
-2. run depth first search to find area on all untouched cells, marking them when touched
+2. run __depth first search__ to find area on all untouched cells, marking them when touched
 3. get the maximum count of a single DFS run
 
 
@@ -154,9 +166,8 @@ let max_count be 0
 for column in m {
     for box in n {
         if grid[column][box] is 0 {
-            set grid[column][box] to 1
-            run dfs_by_colour on grid[column][box]
-            if size is greater than max_count {
+            size -> dfs_by_colour(column, box)
+            if size > max_count {
                 set max_count to size
             }
         }
@@ -166,32 +177,37 @@ for column in m {
 ```
 
 ```go
-function dfs_by_colour {
-    a basic depth (or breadth) first search to count
-    set grid[][] value to 1 when it is traversed
+function dfs_by_colour(col, box) {
+    counter = 0
+    grid[col][box] -> 1
+    if grid[col+1][box] == 0 and same colour:
+        counter += dfs_by_colour(col+1, box)
+    { repeat for 3 other directions }
+    return counter
 }
 ```
 
 
 <div style="height: 45vh"><img src="coding_interview.png"></div>
 
-<small>Cracking the Coding Interview by Gayle Laakmann McDowell</small>
+Cracking the Coding Interview by Gayle Laakmann McDowell
 
 
 
-Given a list of movies watched by users of your app, and a movie a new user just watched, recommend another movie for him to watch.  
+## Given a list of movies watched by users of your app, and a movie a guest just watched, recommend another movie for him to watch as a "coming up next".  
 
 
-collaborative filtering?
+recommendation engine...  
+...collaborative filtering?
 
 
-nooo!!! start simple!
+nooo!!! try to start simple!
 
 find all users who also watched this movie  
 and just grab the most watched movie of all these users
 
-this is a semi-simple sql query
 
+this is a semi-simple sql query
 
 1. select all users which watched the movie in query
 2. for each user, select the movies he/she watched
@@ -228,21 +244,23 @@ any other ideas?
 
 
 
-## 3
-## preparation
+# 3
+# preparation
 
 
-- data structures and algorithms
-- object-oriented programming
-- backend MVC
-- frontend
-
-data structures and algorithms
+1. data structures and algorithms
+2. object-oriented programming
+3. backend MVC
+4. frontend
 
 
-you don't need to implement them
 
+## data structures and algorithms
+
+
+you don't need to implement them  
 but you should know:
+
 - what they are
 - how they work
 - how to use them
@@ -264,17 +282,16 @@ algos to know:
 - nonlinear: graphs, trees, heaps
 
 
-<img src="binary_tree_meme.jpg">
-
-
 ways to study:
 - CLRS
 - take a MOOC algo class
-- practice using them on leetcode
+- practice using them on leetcode  
+<br />
+<img src="binary_tree_meme.jpg">
 
 
 
-object-oriented programming
+## object-oriented programming
 
 
 - classes and instances
@@ -286,14 +303,16 @@ object-oriented programming
 - _*this / self*_
 
 
-you'll want to know how OOP is implemented in your language of choice, and what are its drawbacks! (especially interpreted languages)
+you'll want to know how OOP is implemented in your language of choice,  
+and what are its drawbacks! (especially dynamic languages)
 
 
-fastest way to learn this: take a MOOC, and then do some exercises / build some apps
+fastest way to learn this: take a MOOC on SWE/OOP,  
+and then do some problem sets & build some apps
 
 
 
-<img src="https://miro.medium.com/max/1080/0*Qf1s2lG86MjX-Zcv.jpg">
+<img src="https://miro.medium.com/max/1080/0*Qf1s2lG86MjX-Zcv.jpg" width="60%">
 
 
 fastest way to learn this:
@@ -304,24 +323,29 @@ pick a common server framework
 - spring (good verbosity to learn basics) 
 - laravel (php if you're coming from wordpress)
 
+---
 
 I would recommend these books: [rails](https://railstutorial.org) [nodejs](https://www.manning.com/books/node-js-in-action-second-edition)
 
 
-your framework may dictate where you would go. choose something you enjoy coding in. (i'm not so sure about this myself)
+your framework may dictate where you would go.  
+choose something you enjoy coding in.  
+(i'm not so sure about this)
 
 - banks: java (spring)
 - govtech: a lot of rails evidently
-- nodejs: microservices
+- grab: golang
 
 
 
-frontend
+## frontend
+(if you're interested only)
 
 
-you'll have to know javascript to do this!
+you'll have to know javascript to do this!!   
 
 pick a common frontend framework:
+
 - react
 - vuejs
 - angular (?)
@@ -334,20 +358,23 @@ quickly do a tutorial and understand:
 - component props/states & other APIs
 - stores, routes, mixins, etc
 
-then, build a few apps for fun, to get used to thinking about designing apps and features.
+then, build a few apps for fun,  
+to get used to thinking about designing apps and features.
 
 
 <img src="freecodecamp.png">
-<small><a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/">https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/</a></small>
+<a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/">FreeCodeCamp</a> is good shit imo
 
 
 
-resources and tips
+## resources and tips
+that didn't fit anywhere else
 
 
 https://visualgo.net
 
-website built by NUS SoC to teach students algorithms. we mug this before every algo exam.
+website built by NUS SoC to teach students algorithms.  
+we mug this before every algo exam.
 
 
 https://www.leetcode.com  
@@ -355,7 +382,7 @@ https://www.leetcode.com
 great website to do some algorithm practice questions and learn algorithmic thinking
 
 
-<img src="cracking_book.jpg">
+<img src="cracking_book.jpg" width="30%">
 
 world famous book on algos. has a lot of gems! every time i prep for interviews again, i go back and study this.
 
@@ -367,27 +394,28 @@ i started my dev journey with this.
 
 
 
-other thoughts
-
-i can't fit into the structure
-
-
 - no one has asked me about docker, ever. docker is not a big deal imo.
 
 - don't just learn the tool, learn the underlying concept (e.g. event loops, declarative programming)
 
-- engineering is always about making _*tradeoffs*_
+- engineering is always about making __tradeoffs__!!!!!
 
 - you're not expected to know everything. feel free to ask questions, and be honest about making mistakes.
 
+- interviews go both ways - it is also for you to assess about the company
 
-interviews go both ways - it is also for you to assess about the company
+
+### examples of bad experiences i've had
 
 - a chat with the hiring manager, without any technical interviews
+
 - uni-direction Q&A without any real discussion/feedback
-- purely algorithm questions
-- HR driven recruitment
-- low level feedback from interviewers
+
+- pure undergrad algorithm questions
+
+- recruitment by HR only
+
+- bad feedback from interviewers
 
 
 
