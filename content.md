@@ -1,11 +1,12 @@
 ### my personal experience <br /> with software engineering hiring
-ning yu
+
+slides can be found at: <a href="https://ningzy.me/tech-test">ningzy.me/tech-test</a>
 
 
 #### note:
 this sharing will be recorded at the request of people who could not make it today.
 
-wenxian (and team) would like to wish wai marn a speedy recovery from her wisdom teeth extraction happening right now as we speak.
+wenxian the secureai team would like to dedicate this slide to wai marn, wishing her speedy recovery from her wisdom teeth extraction happening right now as we speak.
 
 
 
