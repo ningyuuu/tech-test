@@ -2,6 +2,12 @@
 ning yu
 
 
+#### note:
+this sharing will be recorded at the request of people who could not make it today.
+
+wenxian (and team) would like to wish wai marn a speedy recovery from her wisdom teeth extraction happening right now as we speak.
+
+
 
 # 1
 # motivation
@@ -9,32 +15,32 @@ addressing some commonly heard things
 
 
 
-## software engineering is 
+## software engineering is
 - "not important"
 - "just outsource"
 - "AI is the future, software is the past"
 
 
-## the data science "hierarchy of needs"  
-<img src="https://hackernoon.com/hn-images/1*7IMev5xslc9FLxr9hHhpFw.png" width="70%">  
+## the data science "hierarchy of needs"
+<img src="https://hackernoon.com/hn-images/1*7IMev5xslc9FLxr9hHhpFw.png" width="70%">
 <small>https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc00</small>
 
 
-mastery of software is necessary for good data science  
-### it's not a foregone conclusion  
+mastery of software is necessary for good data science
+### it's not a foregone conclusion
 <img src="ds_hierarchy_software2.jpg" width="70%">
 
 
 
-## software engineers are? 
+## software engineers are?
 - "software developer no future one"
 - "no code app development is the next big thing"
 - "your company can just outsource to india/china"
 - "software is so easy now, not worth your time"
 
 
-the software industry isn't homogenous  
-### but wrapped in elitism  
+the software industry isn't homogenous
+### but wrapped in elitism
 you can't just climb your way up like a typical career
 
 
@@ -48,23 +54,23 @@ a lot of opinions here to consider - <a href="https://www.reddit.com/r/singapore
 
 ## my subjective, unscientific take
 
-| higher tier   || lower tier    | 
-| ------------- || ------------- | 
-| software is core || software is a means to sales | 
+| higher tier   || lower tier    |
+| ------------- || ------------- |
+| software is core || software is a means to sales |
 | team owns the product || let's just get it done and over with |
-| problems are unique, requires skill || just need some tom dick harry to implement | 
-| quality is highly valued || doesn't really matter, can run can liao | 
+| problems are unique, requires skill || just need some tom dick harry to implement |
+| quality is highly valued || doesn't really matter, can run can liao |
 
 
-| higher tier || lower tier |  
-| ------------- || ------------- | 
+| higher tier || lower tier |
+| ------------- || ------------- |
 | stringent technical assessment process || hiring is done by managers/HR |
 | individual empowerment || corporatised |
 | tries to move towards being agile || claims to be agile |
 
 
-| higher tier || lower tier |  
-| ------------- || ------------- | 
+| higher tier || lower tier |
+| ------------- || ------------- |
 | pays pretty damn well || doesn't pay well* |
 | values technical progression || encourages jump to management asap |
 | you wanna be here || not here |
@@ -77,7 +83,7 @@ a lot of opinions here to consider - <a href="https://www.reddit.com/r/singapore
 
 why can't you "farm" into the good places
 
-and if you can't climb your way into good software roles  
+and if you can't climb your way into good software roles
 
 how do you get in?
 
@@ -88,15 +94,15 @@ good software companies emphasize on __technical abilities__
 
 
 it's not about:
-- X years of experience  
-- what / how many degrees  
-- what your job title is / was  
+- X years of experience
+- what / how many degrees
+- what your job title is / was
 
-sometimes it isn't even about your previous company  
-(though that actually does matter)  
+sometimes it isn't even about your previous company
+(though that actually does matter)
 
 
-good software companies value  
+good software companies value
 ### what you value in a software engineer
 - what have you build (and can show)
 - what problems can you solve
@@ -121,8 +127,8 @@ a common flow: develop an algo &#8594; wrap in OOP/API
 
 
 ## ways of execution
-| mediums || platforms |  
-| ------------- || ------------- | 
+| mediums || platforms |
+| ------------- || ------------- |
 | take-home || google docs |
 | online || whiteboard |
 | in-person || IDE |
@@ -130,7 +136,7 @@ a common flow: develop an algo &#8594; wrap in OOP/API
 
 > whiteboarding is a terrible hiring practice
 
-https://stackoverflow.blog/2019/12/16/this-this-whiteboard-interviews/  
+https://stackoverflow.blog/2019/12/16/this-this-whiteboard-interviews/
 (second half is satire)
 
 
@@ -145,7 +151,7 @@ https://stackoverflow.blog/2019/12/16/this-this-whiteboard-interviews/
 
 
 
-### Our best friend Patrick Shyu (TechLead)  
+### Our best friend Patrick Shyu (TechLead)
 <iframe width="840" height="473" src="https://www.youtube.com/embed/IWvbPIYQPFM?start=318" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -173,7 +179,7 @@ for column in m {
         }
     }
 }
- 
+
 ```
 
 ```go
@@ -194,16 +200,16 @@ Cracking the Coding Interview by Gayle Laakmann McDowell
 
 
 
-## Given a list of movies watched by users of your app, and a movie a guest just watched, recommend another movie for him to watch as a "coming up next".  
+## Given a list of movies watched by users of your app, and a movie a guest just watched, recommend another movie for him to watch as a "coming up next".
 
 
-recommendation engine...  
+recommendation engine...
 ...collaborative filtering?
 
 
 nooo!!! try to start simple!
 
-find all users who also watched this movie  
+find all users who also watched this movie
 and just grab the most watched movie of all these users
 
 
@@ -222,9 +228,9 @@ Design an app to provide an API service. The app should be able to store users, 
 
 ---
 
-2 controllers: 
+2 controllers:
 - user (CRUD + watch methods)
-- movie (only CRUD)  
+- movie (only CRUD)
 
 ---
 
@@ -258,7 +264,7 @@ any other ideas?
 ## data structures and algorithms
 
 
-you don't need to implement them  
+you don't need to implement them
 but you should know:
 
 - what they are
@@ -285,7 +291,7 @@ algos to know:
 ways to study:
 - CLRS
 - take a MOOC algo class
-- practice using them on leetcode  
+- practice using them on leetcode
 <br />
 <img src="binary_tree_meme.jpg">
 
@@ -303,11 +309,11 @@ ways to study:
 - _*this / self*_
 
 
-you'll want to know how OOP is implemented in your language of choice,  
+you'll want to know how OOP is implemented in your language of choice,
 and what are its drawbacks! (especially dynamic languages)
 
 
-fastest way to learn this: take a MOOC on SWE/OOP,  
+fastest way to learn this: take a MOOC on SWE/OOP,
 and then do some problem sets & build some apps
 
 
@@ -320,7 +326,7 @@ pick a common server framework
 
 - ruby on rails (warning: magic)
 - node/express.js
-- spring (good verbosity to learn basics) 
+- spring (good verbosity to learn basics)
 - laravel (php if you're coming from wordpress)
 
 ---
@@ -328,8 +334,8 @@ pick a common server framework
 I would recommend these books: [rails](https://railstutorial.org) [nodejs](https://www.manning.com/books/node-js-in-action-second-edition)
 
 
-your framework may dictate where you would go.  
-choose something you enjoy coding in.  
+your framework may dictate where you would go.
+choose something you enjoy coding in.
 (i'm not so sure about this)
 
 - banks: java (spring)
@@ -342,7 +348,7 @@ choose something you enjoy coding in.
 (if you're interested only)
 
 
-you'll have to know javascript to do this!!   
+you'll have to know javascript to do this!!
 
 pick a common frontend framework:
 
@@ -358,7 +364,7 @@ quickly do a tutorial and understand:
 - component props/states & other APIs
 - stores, routes, mixins, etc
 
-then, build a few apps for fun,  
+then, build a few apps for fun,
 to get used to thinking about designing apps and features.
 
 
@@ -373,11 +379,11 @@ that didn't fit anywhere else
 
 https://visualgo.net
 
-website built by NUS SoC to teach students algorithms.  
+website built by NUS SoC to teach students algorithms.
 we mug this before every algo exam.
 
 
-https://www.leetcode.com  
+https://www.leetcode.com
 
 great website to do some algorithm practice questions and learn algorithmic thinking
 
@@ -389,7 +395,7 @@ world famous book on algos. has a lot of gems! every time i prep for interviews 
 
 https://www.freecodecamp.org/learn
 
-the datacamp of software engineering, but FOC.  
+the datacamp of software engineering, but FOC.
 i started my dev journey with this.
 
 
