@@ -317,6 +317,10 @@ and what are its drawbacks! (especially dynamic languages)
 fastest way to learn this: take a MOOC on SWE/OOP,
 and then do some problem sets & build some apps
 
+\+ also note design patterns
+
+\+ functional programming is a bonus
+
 
 
 <img src="https://miro.medium.com/max/1080/0*Qf1s2lG86MjX-Zcv.jpg" width="60%">
