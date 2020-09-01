@@ -2,6 +2,8 @@
 
 slides can be found at: <a href="https://ningzy.me/tech-test">ningzy.me/tech-test</a>
 
+<a href="https://github.com/ningyuuu/tech-test/">comment on my github</a>
+
 
 #### note:
 this sharing will be recorded at the request of people who could not make it today.
